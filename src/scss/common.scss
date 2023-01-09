@@ -1,0 +1,15 @@
+// Заголовки, загальні БЕМ блоки та інше...
+
+.title {
+   font-family: 'Playfair Display';
+   font-weight: 700;
+   @include adaptiveValue("font-size", 60, 24);
+   line-height: math.div(80, 60);
+}
+
+.text {
+   font-family: 'Manrope';
+   font-weight: 400;
+   @include adaptiveValue("font-size", 20, 16);
+   line-height: math.div(32, 20);
+}
